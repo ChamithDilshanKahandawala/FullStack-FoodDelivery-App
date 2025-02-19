@@ -43,3 +43,34 @@
     margin: 10px 0;
 
 }
+
+.foodItem_Image_container{
+    position: relative;
+}
+
+.foodItem_Image_container .add{
+    width: 35px;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+
+}
+
+.fooditem_counter{
+   position: absolute; 
+   right: 15px;
+   bottom: 15px;
+   display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+    background-color: white;
+    border-radius: 50px;
+
+}
+
+.fooditem_counter img{
+    width: 30px;
+}
