@@ -8,14 +8,17 @@ import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
-    <div className="app">
+    <div>
+      <div className="app">
       <Navbar/>
       <Routes>
         <Route path = '/' element={<Home/>}/>
         <Route path = '/cart' element={<Cart/>}/>
         <Route path='/order' element={<PlaceOrder/>}/>
       </Routes>
-      <Footer/>
+      
+    </div>
+    <Footer/>
     </div>
   )
 }

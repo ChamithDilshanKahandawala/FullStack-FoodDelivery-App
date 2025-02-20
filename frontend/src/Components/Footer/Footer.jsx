@@ -8,7 +8,9 @@ const Footer = () => {
         <div className="footer_content">
             <div className="footerContent_left">
                 <img src={assets.logo} alt="" srcset="" />
-                <p>Content</p>
+                <p>Experience the best food delivery service with fresh ingredients,
+                     quick delivery, and a variety of delicious meals. Whether you're craving a quick snack or a full-course meal, 
+                     we’ve got you covered. Enjoy seamless ordering, secure payments, and doorstep delivery. Follow us on social media and stay updated with our latest offers!</p>
                 <div className="footerSocial_Icons">
                     <img src={assets.facebook_icon} alt="" />
                     <img src={assets.twitter_icon} alt="" />
@@ -28,8 +30,10 @@ const Footer = () => {
             </div>
             <div className="footerContent_Right">
                 <h2>GET IN TOUCH</h2>
-                <li>+94 78 256 3766</li>
-                <li>dilshanKmc92@gmail.com</li>
+                <ul>
+                    <li>+94 78 256 3766</li>
+                    <li>dilshanKmc92@gmail.com</li>
+                </ul>
                 
             </div>
         </div>
