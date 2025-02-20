@@ -52,3 +52,16 @@
 }
 
 
+@media(max-width:750px){
+    .footer_content{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .footer_copyright{
+        align-items: center;
+        font-size: 10px;
+    }
+}
+
