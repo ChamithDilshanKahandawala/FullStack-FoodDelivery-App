@@ -59,3 +59,76 @@
     top: -8px;
     right: -8px;
 }
+
+@media (max-width:1050px) {
+    .navbar .logo{
+        width: 140px;
+
+    }
+
+    .navbar .navbar_menu{
+        gap: 20px;
+        font-size: 17px;
+    }
+
+    .navbar_right{
+        gap: 30px;
+    }
+    
+    .navbar_right img{
+        width: 22px;
+    }
+
+    .navbar_right button{
+        padding: 8px 22px;
+    }
+}
+
+@media (max-width:900px) {
+    .navbar .logo{
+        width: 130px;
+
+    }
+
+    .navbar .navbar_menu{
+        gap: 18px;
+        font-size: 16px;
+    }
+
+    .navbar_right{
+        gap: 20px;
+    }
+    
+    .navbar_right img{
+        width: 20px;
+    }
+
+    .navbar_right button{
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:750px) {
+    .navbar .logo{
+        width: 120px;
+
+    }
+
+    .navbar .navbar_menu{
+        display: none;
+    }
+
+    .navbar_right{
+        gap: 15px;
+    }
+    
+    .navbar_right img{
+        width: 15px;
+    }
+
+    .navbar_right button{
+        padding: 6px 18px;
+        font-size: 12px;
+    }
+}
