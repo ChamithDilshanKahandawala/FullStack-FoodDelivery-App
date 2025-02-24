@@ -103,3 +103,15 @@
     border-radius: 4px;
 
 }
+
+
+@media (max-width:750px) {
+    .cart_bottom{
+        flex-direction: column-reverse;
+    }
+
+    .cart_promo_code{
+        justify-content: start;
+    }
+    
+}
