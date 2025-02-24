@@ -32,3 +32,74 @@
 .cross{
     cursor: pointer;
 }
+
+.cart_bottom{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: max(12vw,20px);
+}
+
+.cart_total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart_total_details{
+    justify-content: space-between;
+    display: flex;
+    color: #555;
+}
+
+.cart_total hr{
+    margin: 10px 0;
+}
+
+.cart_total button{
+    border: none;
+    color: white;
+    background-color: tomato;
+    width: max(15vw,200px);
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.cart_promo_code{
+    flex: 1;
+}
+
+.cart_promo_code p{
+    color: #555;
+
+}
+
+.cart_promoCode_input{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eaeaea;
+
+    border-radius: 4px;
+}
+
+.cart_promoCode_input input{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.cart_promoCode_input button{
+    width: max(10vw,150px);
+    padding: 12px 5px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 4px;
+
+}
